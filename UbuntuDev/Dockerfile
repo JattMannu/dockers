@@ -1,7 +1,7 @@
 
-#FROM consol/ubuntu-xfce-vnc
+FROM consol/ubuntu-xfce-vnc
 #FROM test:Tag
-FROM test:latest
+#FROM test:latest
 
 USER 0
 
