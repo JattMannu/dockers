@@ -1,5 +1,7 @@
 
-FROM consol/ubuntu-xfce-vnc
+FROM consol/ubun
+
+tu-xfce-vnc
 #FROM test:Tag
 #FROM test:latest
 
