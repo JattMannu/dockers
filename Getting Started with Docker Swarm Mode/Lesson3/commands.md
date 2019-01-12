@@ -146,3 +146,7 @@ docker ps
     9a6f820da4ea        nginx:latest        "nginx -g 'daemon of…"   10 minutes ago      Up 10 minutes       80/tcp              web.3.7r53t2k5kd6byo9zipv0z981f
     534aad491cee        nginx:latest        "nginx -g 'daemon of…"   12 minutes ago      Up 12 minutes       80/tcp              web.2.onqwszzt541df1pq75bjt7pab
     b46f7efe16b0        nginx:latest        "nginx -g 'daemon of…"   15 minutes ago      Up 15 minutes       80/tcp              web.1.wy6wcw6aosfnljwudrmh0khyp
+3.9
+    Diagram out look
+3.10
+docker service create --name customer-api -p 3000:3000 swarmgs/customer
